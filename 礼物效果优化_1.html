@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>礼物效果优化</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/礼物效果优化_1/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/礼物效果优化_1/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9238" class="ax_default _一级标题">
+        <div id="u9238_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9239" class="text">
+          <p><span>礼物效果优化</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9240" class="ax_default _二级标题">
+        <div id="u9240_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9241" class="text">
+          <p><span>定位</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9242" class="ax_default _文本段落">
+        <div id="u9242_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9243" class="text">
+          <p><span>增强礼物附加价值，体现贵重礼物的独特性，满足用户虚荣心，促进送礼消费的数量</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9244" class="ax_default _二级标题">
+        <div id="u9244_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9245" class="text">
+          <p><span>需求说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9246" class="ax_default _文本段落">
+        <div id="u9246_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9247" class="text">
+          <p><span style="font-family:'STHeitiSC-Medium', 'Heiti SC Medium', 'Heiti SC';font-weight:700;">&#149; 支持礼物gif动画播放</span><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;"></span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">1：礼物后台上传动效文件，用户赠送相应礼物，则播放动画效果。动画效果只播放一遍。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">2：动画效果区分仅自己可见和别人可见，由后台配置服务端返回。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u9248" class="ax_default _水平线">
+        <img id="u9248_img" class="img " src="images/客户端观看分享/u2112.png"/>
+        <!-- Unnamed () -->
+        <div id="u9249" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9250" class="ax_default _文本段落">
+        <div id="u9250_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9251" class="text">
+          <p><span style="font-family:'STHeitiSC-Medium', 'Heiti SC Medium', 'Heiti SC';font-weight:700;">&#149; 礼物拥堵情况处理</span><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;"></span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">1：自己赠送的礼物优先显示。无论自己赠送的礼物动效是仅自己可见还是所有用户可见，对于自己来说，动效都是最高优先级。即，自己赠送后，自己屏幕立即展示其动效（若此时正在播放其他动效，则将正在播的动效播放结束后。立即播放自己展示的动效）</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">2：自己赠送的大家所有人可见的礼物动效，按照赠送时间依次排序播放。但不再赠送者的终端播放（因为在赠送时已在赠送者的终端优先播放了）</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">3：赠送礼物的聊天信息保持原逻辑</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9252" class="ax_default _文本段落">
+        <div id="u9252_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9253" class="text">
+          <p><span style="font-family:'STHeitiSC-Medium', 'Heiti SC Medium', 'Heiti SC';font-weight:700;">&#149; 后台增加特效仅自己可见/所有人可见配置</span><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;"></span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">1：礼物后台，增加特效仅自己可见/所有人可见配置。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">2：默认配置为仅自己可见。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">3：配置返回失败，默认为仅自己可见。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9254" class="ax_default _文本段落">
+        <div id="u9254_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9255" class="text">
+          <p><span style="font-family:'STHeitiSC-Medium', 'Heiti SC Medium', 'Heiti SC';font-weight:700;">&#149; 特殊处理</span><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;"></span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">1：面板的唤起或聊天输入状态，礼物动效不被暂停。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">2：聊天输入状态，动画与键盘、输入框不重叠。</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
