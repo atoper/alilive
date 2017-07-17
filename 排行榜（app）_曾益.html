@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>排行榜（APP）@曾益</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/排行榜（app）_曾益/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/排行榜（app）_曾益/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7160" class="ax_default _一级标题">
+        <div id="u7160_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7161" class="text">
+          <p><span>排行榜</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u7162" class="ax_default _水平线">
+        <img id="u7162_img" class="img " src="images/双币改造（app_web）_曾益/u54.png"/>
+        <!-- Unnamed () -->
+        <div id="u7163" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7164" class="ax_default _文本段落">
+        <div id="u7164_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7165" class="text">
+          <p><span>排行类型&amp;规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7166" class="ax_default _文本段落">
+        <div id="u7166_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7167" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">需求概述</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 原“红人榜”更名为“人气获赞榜”</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 新增礼物获得、慷慨消费、粉丝增长等排行榜，作用于主播成长以及刺激用户消费</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 新增“排行榜”主页，作为子排行榜入口页，罗列显示已有和新增的各类排行榜，并外置部分排行信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7168" class="ax_default _文本段落">
+        <div id="u7168_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7169" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">5、粉丝榜（根据粉丝增长数进行排行）</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 24小时榜：根据最近24小时内主播的粉丝（关注用户数）增长数排名，每小时整点更新数据，显示TOP30红人</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 本周榜：整个上周（上周一00:00到周日24:00）时间段内，根据主播的粉丝（关注用户数）增长数排名，每小时整点更新数据，显示TOP30红人</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 上周榜：截止上个自然周结束时（上周日24:00）生成的周榜快照</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 粉丝增长数相同时，按照主播用户ID数字正序排列（数字从小到大）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 名次cell外置信息：排行名次+用户头像昵称+周期内粉丝增长数+累计粉丝数+当前主播的直播状态+关注状态/操作</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">注：增长数=周期内粉丝数差值，增长数越大排名越靠前（理论上差值存在负数或0，对应处理方式见交互文档），仅限红人上榜</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7170" class="ax_default _文本段落">
+        <div id="u7170_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7171" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">4、消费榜（根据用户消费总值进行排行）</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 24小时榜：根据最近24小时内用户产生的消费总值对用户进行排名，每小时整点更新数据，显示TOP30用户</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 本周榜：整个本周（自然周：本周一00:00到周日24:00）时间段内，根据用户产生的消费总值对用户进行排名，每小时整点更新数据，显示TOP30用户</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 上周榜：截止上个自然周结束时（上周日24:00）生成的周榜快照</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 消费值相同时，按照消费用户ID数字正序排列（数字从小到大）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 名次cell外置信息：排行名次+用户头像昵称+</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#CCCCCC;">周期内消费值</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">+关注状态/操作</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">注：消费值=赠送礼物+发红包+回顾打赏；消费值越大越靠前；所有时间范围内有过消费行为的用户均能上榜</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7172" class="ax_default _文本段落">
+        <div id="u7172_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7173" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">3、红人飙升榜（根据收到的点赞数环比增长值进行排行）</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 24小时榜：</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#666666;">根据最近24小时与前24小时内获赞数的差值（24小时环比增长）对红人进行排名，</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">每小时整点更新数据，</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#666666;">显示TOP30红人</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#666666;">&#149; 本周榜：</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">整个本周（自然周：本周一00:00到周日24:00）时间段内总获赞数与上周同时间段总获赞数的差值（同比增长）红人进行排名，每小时整点更新数据，显示TOP30红人</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 上周榜：截止上个自然周结束时（上周日24:00）生成的周榜快照</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 飙升值相同时按照主播优先级排列</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 名次cell外置信息：排行名次+用户头像昵称+周期内飙升值+当前主播的直播状态+关注状态/操作</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">注：同比增长值=本期值﹣同期值，环比增长值=本期值-上期值；差值越大排名越靠前（理论上飙升值会出现负数）；仅限红人上榜</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7174" class="ax_default _文本段落">
+        <div id="u7174_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7175" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">2、礼物榜（根据收到的礼物价值进行排行）</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 24小时榜：根据最近24小时内收到礼物价值的总值对红人进行排名，每小时整点更新数据，显示TOP30红人</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 本周榜：整个本周（自然周：本周一00:00到周日24:00）时间段内，根据收到礼物累计总值对达人进行排名，每小时整点更新数据，显示TOP30红人</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 上周榜：截止上个自然周结束时（上周日24:00）生成的周榜快照</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 获得礼物价值相同时，按照主播用户ID数字正序排列（数字从小到大）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 名次cell外置信息：排行名次+用户头像昵称+</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#CCCCCC;">周期内礼物获得价值</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">+当前主播的直播状态+关注状态/操作</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">注：按照未分成的礼物价值进行排名，仅限红人上榜，明星直播以及现场直播等账号收到的礼物不计入排名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7176" class="ax_default _文本段落">
+        <div id="u7176_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7177" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">1、点赞榜（即原“红人榜”，根据收到的点赞数进行排行）</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 24小时榜：根据最近24小时内获得成功点赞数对红人进行排名，每小时整点更新数据，显示TOP30红人</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 本周榜：整个本周（本周一00:00到周日24:00）时间段内，根据累计获得成功点赞的总次数对达人进行排名，每小时整点更新数据，显示TOP30红人</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 上周榜：截止上个自然周结束时（上周日24:00）生成的周榜快照</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 获赞数相同时，按照主播用户ID数字正序排列（数字从小到大）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 名次cell外置信息：排行名次+用户头像昵称+周期内获赞数+当前主播的直播状态+关注状态/操作</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">注：获赞数越多排名越靠前，0赞时不计入排名，仅限红人上榜</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7178" class="ax_default _文本段落">
+        <div id="u7178_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7179" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">排行榜</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">主页</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 显示点赞榜、礼物榜、红人飙升榜、消费榜、粉丝榜</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 点击进入对应排行榜详情页</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 榜单cell外置信息：各个榜单排名TOP名次信息（具体视交互来定）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7180" class="ax_default _文本段落">
+        <div id="u7180_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7181" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">排行cell点击跳转判断</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 正在直播的主播：点击跳转进入对应直播详情页（含实际正在直播/直播已结束状态）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 未直播的主播：点击跳转进入对应回顾详情页，若对当前主播连一场回顾都未生成，则点击不做页面跳转，仅弹出toast：</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:rgba(0, 153, 255, 0.8);">回顾视频正在生成，请稍后</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7182" class="ax_default _流程形状">
+        <div id="u7182_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7183" class="text">
+          <p><span>点击排行cell</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u7184" class="ax_default _流程形状">
+        <img id="u7184_img" class="img " src="images/双币改造（app_web）_曾益/u244.png"/>
+        <!-- Unnamed () -->
+        <div id="u7185" class="text">
+          <p><span>访问页面时获取的直播状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u7186" class="ax_default _流程形状">
+        <img id="u7186_img" class="img " src="images/双币改造（app_web）_曾益/u244.png"/>
+        <!-- Unnamed () -->
+        <div id="u7187" class="text">
+          <p><span>是否已有回顾视频</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u7188" class="ax_default _连接线">
+        <img id="u7188_seg0" class="img " src="images/排行榜（app）_曾益/u7188_seg0.png" alt="u7188_seg0"/>
+        <img id="u7188_seg1" class="img " src="images/排行榜（app）_曾益/u7188_seg1.png" alt="u7188_seg1"/>
+        <img id="u7188_seg2" class="img " src="images/开播端“屏蔽”功能/u5938_seg1.png" alt="u7188_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u7189" class="text">
+          <p><span>未直播</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u7190" class="ax_default _连接线">
+        <img id="u7190_seg0" class="img " src="images/排行榜（app）_曾益/u7190_seg0.png" alt="u7190_seg0"/>
+        <img id="u7190_seg1" class="img " src="images/排行榜（app）_曾益/u7190_seg1.png" alt="u7190_seg1"/>
+        <img id="u7190_seg2" class="img " src="images/开播端“屏蔽”功能/u5938_seg1.png" alt="u7190_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u7191" class="text">
+          <p><span>正在直播</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u7192" class="ax_default _连接线">
+        <img id="u7192_seg0" class="img " src="images/排行榜（app）_曾益/u7192_seg0.png" alt="u7192_seg0"/>
+        <img id="u7192_seg1" class="img " src="images/开播端“屏蔽”功能/u5938_seg1.png" alt="u7192_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u7193" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u7194" class="ax_default _流程形状">
+        <img id="u7194_img" class="img " src="images/双币改造（app_web）_曾益/u244.png"/>
+        <!-- Unnamed () -->
+        <div id="u7195" class="text">
+          <p><span>实际直播状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7196" class="ax_default _流程形状">
+        <div id="u7196_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7197" class="text">
+          <p><span>直播详情页</span></p><p><span>正在直播状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u7198" class="ax_default _连接线">
+        <img id="u7198_seg0" class="img " src="images/排行榜（app）_曾益/u7198_seg0.png" alt="u7198_seg0"/>
+        <img id="u7198_seg1" class="img " src="images/排行榜（app）_曾益/u7198_seg1.png" alt="u7198_seg1"/>
+        <img id="u7198_seg2" class="img " src="images/开播端“屏蔽”功能/u5938_seg1.png" alt="u7198_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u7199" class="text">
+          <p><span>正在直播</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7200" class="ax_default _流程形状">
+        <div id="u7200_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7201" class="text">
+          <p><span>直播详情页</span></p><p><span>直播结束状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u7202" class="ax_default _连接线">
+        <img id="u7202_seg0" class="img " src="images/排行榜（app）_曾益/u7202_seg0.png" alt="u7202_seg0"/>
+        <img id="u7202_seg1" class="img " src="images/排行榜（app）_曾益/u7202_seg1.png" alt="u7202_seg1"/>
+        <img id="u7202_seg2" class="img " src="images/开播端“屏蔽”功能/u5938_seg1.png" alt="u7202_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u7203" class="text">
+          <p><span>未直播</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7204" class="ax_default _流程形状">
+        <div id="u7204_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7205" class="text">
+          <p><span>进入回顾合集页</span></p><p><span>并播放最新一场回顾</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7206" class="ax_default _流程形状">
+        <div id="u7206_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7207" class="text">
+          <p><span>不跳转页面</span></p><p><span>弹出提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u7208" class="ax_default _连接线">
+        <img id="u7208_seg0" class="img " src="images/排行榜（app）_曾益/u7208_seg0.png" alt="u7208_seg0"/>
+        <img id="u7208_seg1" class="img " src="images/排行榜（app）_曾益/u7208_seg1.png" alt="u7208_seg1"/>
+        <img id="u7208_seg2" class="img " src="images/开播端“屏蔽”功能/u5938_seg1.png" alt="u7208_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u7209" class="text">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u7210" class="ax_default _连接线">
+        <img id="u7210_seg0" class="img " src="images/排行榜（app）_曾益/u7210_seg0.png" alt="u7210_seg0"/>
+        <img id="u7210_seg1" class="img " src="images/排行榜（app）_曾益/u7210_seg1.png" alt="u7210_seg1"/>
+        <img id="u7210_seg2" class="img " src="images/开播端“屏蔽”功能/u5938_seg1.png" alt="u7210_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u7211" class="text">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u7212" class="ax_default">
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u7213" class="ax_default _水平线">
+        <img id="u7213_img" class="img " src="images/排行榜（app）_曾益/u7213.png"/>
+        <!-- Unnamed () -->
+        <div id="u7214" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u7215" class="ax_default _水平线">
+        <img id="u7215_img" class="img " src="images/排行榜（app）_曾益/u7215.png"/>
+        <!-- Unnamed () -->
+        <div id="u7216" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u7217" class="ax_default _水平线">
+        <img id="u7217_img" class="img " src="images/排行榜（app）_曾益/u7217.png"/>
+        <!-- Unnamed () -->
+        <div id="u7218" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u7219" class="ax_default _形状">
+        <img id="u7219_img" class="img " src="images/排行榜（app）_曾益/u7219.png"/>
+        <!-- Unnamed () -->
+        <div id="u7220" class="text">
+          <p><span>不做啦~</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7221" class="ax_default _文本段落">
+        <div id="u7221_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7222" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">对用户显示的排行榜“规则说明”</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 每个子排行榜页面顶部提供当前排行榜的规则入口</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 点击“入口”跳转排行榜规则说明页面</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 对外显示排行榜“规则”文案如下：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7223" class="ax_default _文本段落">
+        <div id="u7223_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7224" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">4、粉丝榜</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 页面标题：</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">粉丝榜排名规则</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 页面文案：</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单说明</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">粉丝榜，是阿里星球前30名红人按照新增粉丝数进行的排名，排名靠前的红人还有机会获得平台的奖励。</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">打榜周期</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">24H榜：统计24小时内红人的新增粉丝数排名，显示前30名，整点更新</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">本周榜：统计本周（本周一0:00-本周日24:00）内红人的新增粉丝数排名，显示前30名，整点更新</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">上周榜：统计上周（上周一0:00-上周日24:00）内红人的新增粉丝数排名，显示前30名</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单规则</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单周期内新增粉丝数高的红人排名越靠前</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7225" class="ax_default _文本段落">
+        <div id="u7225_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7226" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">1、点赞榜</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 页面标题：</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">点赞榜排名规则</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 页面文案：</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单说明</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">点赞榜，是阿里星球前30名红人获得的点赞数的排名。动动你的手指就会影响到你喜爱的红人排名，听说点赞可以锻炼手指灵活度更好地学习乐器哦。排名靠前的红人可以获得阿里星球量身定做的推广资源和明星养成机会，实现自己的音乐梦想！每一个梦想阿里星球都会认真对待！</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">打榜周期</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">24H榜：统计24小时内红人获得的点赞数排名，显示前30名，整点更新</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">本周榜：统计本周（本周一0:00-本周日24:00）内红人获得的点赞数，显示前30名，整点更新</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">上周榜：统计上周（上周一0:00-上周日24:00）内红人获得的点赞数，显示前30名</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单规则</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单周期内统计登录账号的点赞数据，非登录用户点赞不会被计入红人的点赞数哦</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7227" class="ax_default _文本段落">
+        <div id="u7227_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7228" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">2、礼物榜</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 页面标题：</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">礼物榜排名规则</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 页面文案：</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单说明</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">收益榜，是阿里星球前30名红人按照获得的礼物（按直播豆金额）进行的排名。可以让喜爱的红人排名靠前还能引起红人的关注哦，彼此关系更亲近，还能帮助红人实现自己的音乐梦想</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">打榜周期</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">24H榜：统计24小时内红人收到的礼物排名，显示前30名，整点更新</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">本周榜：统计本周（本周一0:00-本周日24:00）内红人收到的礼物排名，显示前30名，整点更新</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">上周榜：统计上周（上周一0:00-上周日24:00）内红人收到的礼物排名，显示前30名</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单规则</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单周期内礼物收益越多排名越靠前</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7229" class="ax_default _文本段落">
+        <div id="u7229_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7230" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">3、消费榜</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">页面标题：</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">消费榜排名规则</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">页面文案：</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单说明</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">消费榜，是阿里星球前30名用户按照消费的直播豆金额（礼物、红包和打赏均统计在内）进行的排名，上榜用户不仅可以排名靠前，并有机会获得阿里星球平台及红人的专属福利哦！</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">打榜周期</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">24H榜：统计24小时内用户的直播豆消费排名，显示前30名，整点更新</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">本周榜：统计本周（本周一0:00-本周日24:00）内用户的直播豆消费排名，显示前30名，整点更新</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">上周榜：统计上周（上周一0:00-上周日24:00）内用户的直播豆消费排名，显示前30名</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单规则</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#28A9FF;">榜单周期内直播豆消费越多越靠前</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

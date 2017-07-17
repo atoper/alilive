@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>PUSH逻辑优化</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/push逻辑优化/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/push逻辑优化/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7512" class="ax_default _一级标题">
+        <div id="u7512_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7513" class="text">
+          <p><span>PUSH逻辑优化</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7514" class="ax_default _二级标题">
+        <div id="u7514_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7515" class="text">
+          <p><span>定位</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7516" class="ax_default _文本段落">
+        <div id="u7516_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7517" class="text">
+          <p><span>现有push方案带带来用户push频繁接受通知，影响用户体验；旨在提高用户体验，提高push被打开的相对占比</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7518" class="ax_default _二级标题">
+        <div id="u7518_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7519" class="text">
+          <p><span>需求说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7520" class="ax_default _文本段落">
+        <div id="u7520_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7521" class="text">
+          <p><span style="font-family:'STHeitiSC-Medium', 'Heiti SC Medium', 'Heiti SC';font-weight:700;">&#149; 取消push和关注的绝对关联</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">原当关注后的主播开播之后，用户都会收到push通知提醒，现取消这种绝对关联，取而代之的是关注被作为影响是否push的因素之一，具体规则参见以下需求。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u7522" class="ax_default _水平线">
+        <img id="u7522_img" class="img " src="images/客户端观看分享/u2101.png"/>
+        <!-- Unnamed () -->
+        <div id="u7523" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7524" class="ax_default _文本段落">
+        <div id="u7524_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7525" class="text">
+          <p><span style="font-family:'STHeitiSC-Medium', 'Heiti SC Medium', 'Heiti SC';font-weight:700;">&#149; 个性化计算推荐push</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">先严格控制质量，加强对条件的要求。逐步观察数据再放开条件要求。不包括运营push和预约push。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">&nbsp;&nbsp; </span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">&nbsp;1：push的直播内容，主播一定是用户观看过或者关注过的主播，这作为第一前提，没有观看过或者关注过的主播开播，用户均不会受到push。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">2：在第一前提下，分析用户产生的观看、聊天/留言、点赞、送礼、送红包、时间等行为。判断是否满足足够喜欢，从而判断是否应该push。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">3：当天内的push次数进行限制，工作日push次数不多余 3 次。周末及节假日push次数不大于 5 次。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">4：push后，用户不点击的内容，适当减少其喜欢程度，简介减少该主播的push通知，和整体push次数。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">5：关注的主播在用户关注主播后的第一次开播，直接视为用户喜欢这场直播。</span></p><p><span style="font-family:'STHeitiSC-Light', 'Heiti SC Light', 'Heiti SC';font-weight:200;">6：主播长时间未开播然后再开播，再次开播，在时间上需要特殊处理，倾向于push给用户。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u7526" class="ax_default _图片">
+        <img id="u7526_img" class="img " src="images/push逻辑优化/u7526.png"/>
+        <!-- Unnamed () -->
+        <div id="u7527" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

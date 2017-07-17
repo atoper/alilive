@@ -1,0 +1,997 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>android顶部通知栏/ios工具栏适配视频播放</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/android顶部通知栏_ios工具栏适配视频播放/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/android顶部通知栏_ios工具栏适配视频播放/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11642" class="ax_default _流程形状">
+        <div id="u11642_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11643" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11644" class="ax_default _一级标题">
+        <div id="u11644_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11645" class="text">
+          <p><span>android顶部通知栏ios工具栏适配视频播放</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11646" class="ax_default _二级标题">
+        <div id="u11646_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11647" class="text">
+          <p><span>定位</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11648" class="ax_default _文本段落">
+        <div id="u11648_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11649" class="text">
+          <p><span>清晰区分音乐和直播/回顾视频在不同场景下的显示和外显</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11650" class="ax_default _二级标题">
+        <div id="u11650_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11651" class="text">
+          <p><span>需求说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11652" class="ax_default _水平线">
+        <img id="u11652_img" class="img " src="images/客户端观看分享/u2101.png"/>
+        <!-- Unnamed () -->
+        <div id="u11653" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11654" class="ax_default _文本段落">
+        <div id="u11654_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11655" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">1：播放视频内容时，Android顶部通知栏显示视频播放样式</span></p><p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;"><br></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 仅限android手机</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 通知栏被用户通过其他方式限制显示，则不显示通知栏</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 样式包括：主播头像，主播名称，主播主题，关闭按钮。（直播的内容，额外再增加“直播中”的提示，文案还是图标参见视觉）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 点击视频播放通知栏直接进入播放详情页（包括已结束）。</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 点击关闭按钮，作用同音频处理。</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 支持直播、回顾。</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; </span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#FF0000;">MV同样支持。MV显示元素包括：艺人头像，艺人名称，MV-名称，关闭按钮。</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11656" class="ax_default _文本段落">
+        <div id="u11656_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11657" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">2：特殊处理</span></p><p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;"><br></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 通知栏或工具栏信息获取不到的情况，同播放音频处理。</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; Android通知栏收起后，顶部还有小icon（同音乐）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11658" class="ax_default _文本段落">
+        <div id="u11658_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11659" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">2：播放视频内容时，ios工具栏显示视频播放样式</span></p><p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;"><br></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 仅限ios手机</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 样式包括：主播名称，主播主题。（直播的内容，额外再增加“直播中”的提示，文案放置见视觉）不显示进度。回顾额外增加暂停/播放按钮</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 点击文本信息进入播放详情页（包括已结束）。</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 支持直播、回顾。</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&nbsp;</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#FF0000;">MV同样支持。MV显示元素包括：艺人名称，MV-名称，关闭按钮。</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11660" class="ax_default _文本段落">
+        <div id="u11660_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11661" class="text">
+          <p><span>技术评估可行性</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11662" class="ax_default _二级标题">
+        <div id="u11662_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11663" class="text">
+          <p><span>交互说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11664" class="ax_default _水平线">
+        <img id="u11664_img" class="img " src="images/客户端观看分享/u2101.png"/>
+        <!-- Unnamed () -->
+        <div id="u11665" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11666" class="ax_default">
+        <div id="u11666_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11666_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11667" class="ax_default _图片">
+              <img id="u11667_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11667.jpg"/>
+              <!-- Unnamed () -->
+              <div id="u11668" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11669" class="ax_default _形状">
+              <img id="u11669_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11669.png"/>
+              <!-- Unnamed () -->
+              <div id="u11670" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11671" class="ax_default _形状">
+              <img id="u11671_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11671.png"/>
+              <!-- Unnamed () -->
+              <div id="u11672" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11673" class="ax_default _形状">
+        <img id="u11673_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11673.png"/>
+        <!-- Unnamed () -->
+        <div id="u11674" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11675" class="ax_default _文本段落">
+        <div id="u11675_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11676" class="text">
+          <p><span>清新下午茶哦~那些老歌一起来听歌...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11677" class="ax_default _文本段落">
+        <div id="u11677_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11678" class="text">
+          <p><span>林威WeiLiM</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11679" class="ax_default _文本段落">
+        <div id="u11679_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11680" class="text">
+          <p><span>直播中</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u11681" class="ax_default _形状">
+        <img id="u11681_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11681.png"/>
+        <!-- Unnamed () -->
+        <div id="u11682" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11683" class="ax_default">
+        <div id="u11683_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11683_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11684" class="ax_default _图片">
+              <img id="u11684_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11667.jpg"/>
+              <!-- Unnamed () -->
+              <div id="u11685" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11686" class="ax_default _形状">
+              <img id="u11686_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11669.png"/>
+              <!-- Unnamed () -->
+              <div id="u11687" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11688" class="ax_default _形状">
+              <img id="u11688_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11671.png"/>
+              <!-- Unnamed () -->
+              <div id="u11689" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11690" class="ax_default _形状">
+        <img id="u11690_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11673.png"/>
+        <!-- Unnamed () -->
+        <div id="u11691" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u11692" class="ax_default _形状">
+        <img id="u11692_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11681.png"/>
+        <!-- Unnamed () -->
+        <div id="u11693" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11694" class="ax_default _图片">
+        <img id="u11694_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11694.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u11695" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11696" class="ax_default _文本段落">
+        <div id="u11696_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11697" class="text">
+          <p><span>MV-&nbsp; 清新下午茶哦~那些老歌来听歌...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11698" class="ax_default _文本段落">
+        <div id="u11698_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11699" class="text">
+          <p><span>林威WeiLiM</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11700" class="ax_default _图片">
+        <img id="u11700_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11694.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u11701" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11702" class="ax_default">
+        <div id="u11702_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11702_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11703" class="ax_default _图片">
+              <img id="u11703_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11667.jpg"/>
+              <!-- Unnamed () -->
+              <div id="u11704" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11705" class="ax_default _形状">
+              <img id="u11705_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11669.png"/>
+              <!-- Unnamed () -->
+              <div id="u11706" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11707" class="ax_default _形状">
+              <img id="u11707_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11671.png"/>
+              <!-- Unnamed () -->
+              <div id="u11708" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11709" class="ax_default _形状">
+        <img id="u11709_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11673.png"/>
+        <!-- Unnamed () -->
+        <div id="u11710" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11711" class="ax_default _文本段落">
+        <div id="u11711_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11712" class="text">
+          <p><span>清新下午茶哦~那些老歌来听歌...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11713" class="ax_default _文本段落">
+        <div id="u11713_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11714" class="text">
+          <p><span>林威WeiLiM</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11715" class="ax_default _图片">
+        <img id="u11715_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11694.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u11716" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u11717" class="ax_default _形状">
+        <img id="u11717_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11681.png"/>
+        <!-- Unnamed () -->
+        <div id="u11718" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11719" class="ax_default">
+        <div id="u11719_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11719_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11720" class="ax_default _图片">
+              <img id="u11720_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11667.jpg"/>
+              <!-- Unnamed () -->
+              <div id="u11721" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11722" class="ax_default _形状">
+              <img id="u11722_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11669.png"/>
+              <!-- Unnamed () -->
+              <div id="u11723" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11724" class="ax_default _形状">
+              <img id="u11724_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11671.png"/>
+              <!-- Unnamed () -->
+              <div id="u11725" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11726" class="ax_default _形状">
+        <img id="u11726_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11673.png"/>
+        <!-- Unnamed () -->
+        <div id="u11727" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11728" class="ax_default _图片">
+        <img id="u11728_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11694.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u11729" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u11730" class="ax_default _形状">
+        <img id="u11730_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11681.png"/>
+        <!-- Unnamed () -->
+        <div id="u11731" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11732" class="ax_default _形状">
+        <div id="u11732_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11733" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11734" class="ax_default">
+        <div id="u11734_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11734_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11735" class="ax_default _图片">
+              <img id="u11735_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11735.png"/>
+              <!-- Unnamed () -->
+              <div id="u11736" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11737" class="ax_default _形状">
+              <img id="u11737_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11671.png"/>
+              <!-- Unnamed () -->
+              <div id="u11738" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11739" class="ax_default _形状">
+              <div id="u11739_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u11740" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11741" class="ax_default _形状">
+        <img id="u11741_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11741.png"/>
+        <!-- Unnamed () -->
+        <div id="u11742" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11743" class="ax_default _形状">
+        <img id="u11743_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11743.png"/>
+        <!-- Unnamed () -->
+        <div id="u11744" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11745" class="ax_default _水平线">
+        <img id="u11745_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11745.png"/>
+        <!-- Unnamed () -->
+        <div id="u11746" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11747" class="ax_default _水平线">
+        <img id="u11747_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11747.png"/>
+        <!-- Unnamed () -->
+        <div id="u11748" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u11749" class="ax_default _流程形状">
+        <img id="u11749_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11749.png"/>
+        <!-- Unnamed () -->
+        <div id="u11750" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11751" class="ax_default _图片">
+        <img id="u11751_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11751.png"/>
+        <!-- Unnamed () -->
+        <div id="u11752" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11753" class="ax_default">
+        <div id="u11753_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11753_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11754" class="ax_default _图片">
+              <img id="u11754_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11751.png"/>
+              <!-- Unnamed () -->
+              <div id="u11755" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11756" class="ax_default _文本段落">
+        <div id="u11756_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11757" class="text">
+          <p><span>直播中：清新下午茶哦~那些老歌一起来听歌...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11758" class="ax_default _文本段落">
+        <div id="u11758_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11759" class="text">
+          <p><span>林威WeiLiM</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11760" class="ax_default">
+        <div id="u11760_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11760_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11761" class="ax_default _图片">
+              <img id="u11761_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11735.png"/>
+              <!-- Unnamed () -->
+              <div id="u11762" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11763" class="ax_default _形状">
+              <img id="u11763_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11671.png"/>
+              <!-- Unnamed () -->
+              <div id="u11764" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11765" class="ax_default _形状">
+              <div id="u11765_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u11766" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11767" class="ax_default _形状">
+        <img id="u11767_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11741.png"/>
+        <!-- Unnamed () -->
+        <div id="u11768" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11769" class="ax_default _形状">
+        <img id="u11769_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11743.png"/>
+        <!-- Unnamed () -->
+        <div id="u11770" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11771" class="ax_default _水平线">
+        <img id="u11771_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11745.png"/>
+        <!-- Unnamed () -->
+        <div id="u11772" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11773" class="ax_default _水平线">
+        <img id="u11773_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11747.png"/>
+        <!-- Unnamed () -->
+        <div id="u11774" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u11775" class="ax_default _流程形状">
+        <img id="u11775_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11749.png"/>
+        <!-- Unnamed () -->
+        <div id="u11776" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11777" class="ax_default _图片">
+        <img id="u11777_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11751.png"/>
+        <!-- Unnamed () -->
+        <div id="u11778" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11779" class="ax_default">
+        <div id="u11779_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11779_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11780" class="ax_default _图片">
+              <img id="u11780_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11751.png"/>
+              <!-- Unnamed () -->
+              <div id="u11781" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11782" class="ax_default _文本段落">
+        <div id="u11782_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11783" class="text">
+          <p><span>MV：清新下午茶哦~那些老歌一起来听歌...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11784" class="ax_default _文本段落">
+        <div id="u11784_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11785" class="text">
+          <p><span>林威WeiLiM</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11786" class="ax_default">
+        <div id="u11786_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11786_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11787" class="ax_default _图片">
+              <img id="u11787_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11735.png"/>
+              <!-- Unnamed () -->
+              <div id="u11788" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11789" class="ax_default _形状">
+              <img id="u11789_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11671.png"/>
+              <!-- Unnamed () -->
+              <div id="u11790" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11791" class="ax_default _形状">
+              <div id="u11791_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u11792" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11793" class="ax_default _形状">
+        <img id="u11793_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11741.png"/>
+        <!-- Unnamed () -->
+        <div id="u11794" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11795" class="ax_default _形状">
+        <img id="u11795_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11743.png"/>
+        <!-- Unnamed () -->
+        <div id="u11796" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11797" class="ax_default _水平线">
+        <img id="u11797_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11745.png"/>
+        <!-- Unnamed () -->
+        <div id="u11798" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11799" class="ax_default _水平线">
+        <img id="u11799_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11747.png"/>
+        <!-- Unnamed () -->
+        <div id="u11800" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u11801" class="ax_default _流程形状">
+        <img id="u11801_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11749.png"/>
+        <!-- Unnamed () -->
+        <div id="u11802" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11803" class="ax_default">
+        <div id="u11803_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11803_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11804" class="ax_default _图片">
+              <img id="u11804_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11751.png"/>
+              <!-- Unnamed () -->
+              <div id="u11805" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11806" class="ax_default _文本段落">
+        <div id="u11806_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11807" class="text">
+          <p><span>清新下午茶哦~那些老歌一起来听歌...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11808" class="ax_default _文本段落">
+        <div id="u11808_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11809" class="text">
+          <p><span>林威WeiLiM</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11810" class="ax_default">
+        <div id="u11810_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11810_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11811" class="ax_default _图片">
+              <img id="u11811_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11735.png"/>
+              <!-- Unnamed () -->
+              <div id="u11812" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11813" class="ax_default _形状">
+              <img id="u11813_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11671.png"/>
+              <!-- Unnamed () -->
+              <div id="u11814" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u11815" class="ax_default _形状">
+              <div id="u11815_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u11816" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11817" class="ax_default _形状">
+        <img id="u11817_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11741.png"/>
+        <!-- Unnamed () -->
+        <div id="u11818" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11819" class="ax_default _形状">
+        <img id="u11819_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11743.png"/>
+        <!-- Unnamed () -->
+        <div id="u11820" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11821" class="ax_default _文本段落">
+        <div id="u11821_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11822" class="text">
+          <p><span>--</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11823" class="ax_default _文本段落">
+        <div id="u11823_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11824" class="text">
+          <p><span>--</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11825" class="ax_default _图片">
+        <img id="u11825_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11751.png"/>
+        <!-- Unnamed () -->
+        <div id="u11826" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11827" class="ax_default _水平线">
+        <img id="u11827_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11745.png"/>
+        <!-- Unnamed () -->
+        <div id="u11828" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u11829" class="ax_default _水平线">
+        <img id="u11829_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11747.png"/>
+        <!-- Unnamed () -->
+        <div id="u11830" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u11831" class="ax_default _流程形状">
+        <img id="u11831_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11749.png"/>
+        <!-- Unnamed () -->
+        <div id="u11832" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u11833" class="ax_default">
+        <div id="u11833_state0" class="panel_state" data-label="State1" style="">
+          <div id="u11833_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u11834" class="ax_default _图片">
+              <img id="u11834_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11751.png"/>
+              <!-- Unnamed () -->
+              <div id="u11835" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11836" class="ax_default _图片">
+        <img id="u11836_img" class="img " src="images/android顶部通知栏_ios工具栏适配视频播放/u11751.png"/>
+        <!-- Unnamed () -->
+        <div id="u11837" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11838" class="ax_default _文本段落">
+        <div id="u11838_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11839" class="text">
+          <p><span>IOS直播中显示样式</span></p><p><span>开播标题和昵称过长...显示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11840" class="ax_default _文本段落">
+        <div id="u11840_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11841" class="text">
+          <p><span>IOSMV显示样式</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11842" class="ax_default _文本段落">
+        <div id="u11842_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11843" class="text">
+          <p><span>IOS回顾显示样式</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11844" class="ax_default _文本段落">
+        <div id="u11844_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11845" class="text">
+          <p><span>IOS数据获取不到情况样式</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11846" class="ax_default _文本段落">
+        <div id="u11846_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11847" class="text">
+          <p><span>android直播中显示样式</span></p><p><span>开播标题和昵称过长...显示</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

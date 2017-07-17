@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>MV&amp;回顾播放页面改造</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/mv_回顾播放页面改造/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/mv_回顾播放页面改造/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3583" class="ax_default _一级标题">
+        <div id="u3583_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3584" class="text">
+          <p><span>MV&amp;回顾播放页面改造</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u3585" class="ax_default _水平线">
+        <img id="u3585_img" class="img " src="images/双币改造（app_web）_曾益/u54.png"/>
+        <!-- Unnamed () -->
+        <div id="u3586" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3587" class="ax_default _文本段落">
+        <div id="u3587_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3588" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">功能点概述</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 弹幕：包括弹幕的发送操作、显示规则，以及控制弹幕隐藏显示的开关</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 分享：MV的分享入口</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 播放控制：播放/暂停操作以及对应状态</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 进度时长：播放进度控制，当前已播放时间和总视频时长显示</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 亮度控制</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 音量控制</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 播放进度控制</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 返回</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 标题显示</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 选集（仅回顾）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 下载（仅MV）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 操作面板触发显示以及自动隐藏</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 清晰度选择（仅MV和现场回顾）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3589" class="ax_default _文本段落">
+        <div id="u3589_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3590" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">弹幕获取数量说明</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 根据视频时长获取用户最新发布的弹幕</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u3591" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3592" class="ax_default _单元格">
+          <img id="u3592_img" class="img " src="images/mv_回顾播放页面改造/u3592.png"/>
+          <!-- Unnamed () -->
+          <div id="u3593" class="text">
+            <p><span>视频时长</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3594" class="ax_default _单元格">
+          <img id="u3594_img" class="img " src="images/mv_回顾播放页面改造/u3594.png"/>
+          <!-- Unnamed () -->
+          <div id="u3595" class="text">
+            <p><span>获取弹幕数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3596" class="ax_default _单元格">
+          <img id="u3596_img" class="img " src="images/mv_回顾播放页面改造/u3596.png"/>
+          <!-- Unnamed () -->
+          <div id="u3597" class="text">
+            <p><span>视频时长 ≤ 3分钟</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3598" class="ax_default _单元格">
+          <img id="u3598_img" class="img " src="images/mv_回顾播放页面改造/u3598.png"/>
+          <!-- Unnamed () -->
+          <div id="u3599" class="text">
+            <p><span>500</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3600" class="ax_default _单元格">
+          <img id="u3600_img" class="img " src="images/mv_回顾播放页面改造/u3596.png"/>
+          <!-- Unnamed () -->
+          <div id="u3601" class="text">
+            <p><span>3分钟 ＜ 视频时长 ≤ 10分钟</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3602" class="ax_default _单元格">
+          <img id="u3602_img" class="img " src="images/mv_回顾播放页面改造/u3598.png"/>
+          <!-- Unnamed () -->
+          <div id="u3603" class="text">
+            <p><span>1000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3604" class="ax_default _单元格">
+          <img id="u3604_img" class="img " src="images/mv_回顾播放页面改造/u3596.png"/>
+          <!-- Unnamed () -->
+          <div id="u3605" class="text">
+            <p><span>10分钟 ＜ 视频时长 ≤ 15</span><span>分钟</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3606" class="ax_default _单元格">
+          <img id="u3606_img" class="img " src="images/mv_回顾播放页面改造/u3598.png"/>
+          <!-- Unnamed () -->
+          <div id="u3607" class="text">
+            <p><span>1500</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3608" class="ax_default _单元格">
+          <img id="u3608_img" class="img " src="images/mv_回顾播放页面改造/u3596.png"/>
+          <!-- Unnamed () -->
+          <div id="u3609" class="text">
+            <p><span>15分钟 ＜视频时长 ≤ 35分钟</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3610" class="ax_default _单元格">
+          <img id="u3610_img" class="img " src="images/mv_回顾播放页面改造/u3598.png"/>
+          <!-- Unnamed () -->
+          <div id="u3611" class="text">
+            <p><span>3000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3612" class="ax_default _单元格">
+          <img id="u3612_img" class="img " src="images/mv_回顾播放页面改造/u3596.png"/>
+          <!-- Unnamed () -->
+          <div id="u3613" class="text">
+            <p><span>35分钟 ＜视频时长 ≤ 60分钟</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3614" class="ax_default _单元格">
+          <img id="u3614_img" class="img " src="images/mv_回顾播放页面改造/u3598.png"/>
+          <!-- Unnamed () -->
+          <div id="u3615" class="text">
+            <p><span>6000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3616" class="ax_default _单元格">
+          <img id="u3616_img" class="img " src="images/mv_回顾播放页面改造/u3616.png"/>
+          <!-- Unnamed () -->
+          <div id="u3617" class="text">
+            <p><span>视频</span><span>时长 ＞ 60分钟</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u3618" class="ax_default _单元格">
+          <img id="u3618_img" class="img " src="images/mv_回顾播放页面改造/u3618.png"/>
+          <!-- Unnamed () -->
+          <div id="u3619" class="text">
+            <p><span>8000</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3620" class="ax_default _文本段落">
+        <div id="u3620_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3621" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">视频缓冲播放</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; wifi网络下，进入视频播放页面，开始缓冲，完成缓冲Buff后开始播放；（非wifi网络时保持之前的非wifi弹窗逻辑进行提示）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 开始播放后，处于“播放”状态时，一直缓冲，直至将视频缓冲完成；</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 开始播放后，若处于“暂停”状态，除视频播放画面暂停外，也同步暂停视频缓冲，恢复播放状态后继续缓冲</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 显示缓冲进度（视觉上需要和播放进度进行区分）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 播放播放失败处理逻辑不变</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3622" class="ax_default _文本段落">
+        <div id="u3622_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3623" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">屏幕亮度以及音频控制</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 视频播放页面提供的屏幕亮度和音频控制与系统保持一致（即，直接调节系统的屏幕亮度和音量）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">注：屏幕亮度和音频调节的交互方式，具体请参照UED的交互文档</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3624" class="ax_default _文本段落">
+        <div id="u3624_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3625" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">“下载”说明</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 仅对MV的视频提供下载操作，下载逻辑不变（包括：下载的内容为视频文件+对应用于获取MV相关信息和弹幕的配置文件；下载开始成功失败的提示；下载文件的存储等）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u3626" class="ax_default">
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3627" class="ax_default _文本段落">
+        <div id="u3627_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3628" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">弹幕显示规则</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 若无法获取到弹幕内容，则不显示弹幕（无需弹出提示）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 弹幕文字颜色、字号根据视觉稿写死，不兼容历史天天动听版本用户发送弹幕时设置的弹幕颜色字号位置</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 根据屏幕宽度以及弹幕长度进行计算单条弹幕的滚动速度，保障单条弹幕在屏幕停留时间为5秒，允许弹幕间叠加显示</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 同屏弹幕显示规则：弹幕从上至下划分在ABC三个区域显示，单个区域最多允许同时显示80条弹幕，超出后弹幕放入下一个区域显示（即，同屏弹幕总数上限为240条）</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 用户当前成功发出的弹幕也优先按照上述排列规则显示，若同屏达到240条限制则随机区域且高亮滚动显示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3629" class="ax_default _文本段落">
+        <div id="u3629_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3630" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">发送弹幕</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;">&#149; 保留原弹幕发送相关设定：弹幕文字上限30字，支持系统emoji字符表情（不提供弹幕的颜色、字号、位置自定义）；以及弹幕发送成功失败的处理逻辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u3631" class="ax_default _图片">
+        <img id="u3631_img" class="img " src="images/mv_回顾播放页面改造/u3631.png"/>
+        <!-- Unnamed () -->
+        <div id="u3632" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3633" class="ax_default box_2">
+        <div id="u3633_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3634" class="text">
+          <p><span>A</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3635" class="ax_default box_2">
+        <div id="u3635_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3636" class="text">
+          <p><span>B</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3637" class="ax_default box_2">
+        <div id="u3637_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3638" class="text">
+          <p><span>C</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u3639" class="ax_default _文本段落">
+        <div id="u3639_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3640" class="text">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;color:#5E5E5E;">播放进度控制</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;"></span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 控制进度的方式包括两种：拖动播放进度条和手势滑动控制播放进度</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#5E5E5E;">&#149; 拖动进度条控制进度以及手势滑动过程中，中显示将要变化的进度时间，但视频播放暂不受影响，用户释放动作后响应实际调整后的播放进度</span></p><p><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">注：进度控制的交互方式，具体参照UED交互文档说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u3641" class="ax_default placeholder">
+        <img id="u3641_img" class="img " src="images/mv_回顾播放页面改造/u3641.png"/>
+        <!-- Unnamed () -->
+        <div id="u3642" class="text">
+          <p><span>弹幕显示不作要求</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
